@@ -47,6 +47,7 @@ function App() {
           {console.log(user.photoURL)}
           <p>Email: {user.email}</p>
           <button onClick={() => auth.signOut()}>Sign Out</button> <br/><br/><br/>
+          <p className='display-5'>TODO-LIST</p>
           <Todo></Todo>
         </div>
       ) : (
